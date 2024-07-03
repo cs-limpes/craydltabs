@@ -9,10 +9,11 @@
 
 html, body {
   height: 100%;
+
 }
 
 body {
-  font: 16px/1 'Open Sans', sans-serif;
+  font: 16px/1 'Quicksand', sans-serif;
   color: #fff;
   background: #323232;
 }
@@ -114,7 +115,21 @@ input:checked + label section {
 ul {
   list-style:disc;
   list-style-position: inside;
+}
 
+.button1 {
+  background-color: #DED767;
+  color: #000;
+  border-radius: 25px;
+  width: 120px;
+  height: 45px;
+  text-align: center;
+  margin: 1rem auto;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 760px) {
