@@ -40,7 +40,6 @@ main {
 .tab-container {
   display: flex;
   width: 50%;
-  flex-grow: 1;
 }
 
 .tab-labels {
@@ -52,16 +51,16 @@ main {
 .image-container {
   width: 50%;
   margin-left: 20px;
+  object-fit: cover;
 }
 
 #tabImage {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .tab {
-  margin-bottom: 10%;
   border-bottom: 1px solid #5B5757;
 }
 
